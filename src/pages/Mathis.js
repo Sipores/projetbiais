@@ -2,8 +2,15 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="p-4">
+    <div className="p-4 ml-8 mr-8">
       <h1 className="text-2xl font-bold" role="button" aria-label="Titre" tabIndex="0">Les biais cognitifs et les croyances en pseudo-sciences</h1>
+      <p className="text-sm text-gray-600">
+                    Par <strong className="font-semibold">LEROUX Mathis</strong>. Dernière mise à jour :{" "}
+                    <time dateTime="2025-01-09" className="italic">
+                        8 janvier 2025
+                    </time>
+                    .
+                </p>
       <div className="p-4">
       <p role="button" tabIndex="0">Les pseudo-sciences, telles que la lithothérapie, l’astrologie ou encore la voyance,
         captivent de nombreuses personnes, malgré l'absence de preuves scientifiques solides

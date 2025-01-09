@@ -15,7 +15,7 @@ const About = () => {
                     Le Biais de Confirmation : Quand Nos Croyances Guident Nos Réalités
                 </h1>
                 <p className="text-sm text-gray-600">
-                    Par <strong className="font-semibold">Votre Nom</strong>. Dernière mise à jour :{" "}
+                    Par <strong className="font-semibold">VILLALARD Kelig</strong>. Dernière mise à jour :{" "}
                     <time dateTime="2025-01-09" className="italic">
                         9 janvier 2025
                     </time>
@@ -23,7 +23,7 @@ const About = () => {
                 </p>
             </header>
 
-            <section aria-labelledby="introduction" className="mb-6">
+            <section aria-labelledby="introduction" className="mb-6" role="button" tabIndex="0">
                 <h2 id="introduction" className="text-2xl font-semibold text-gray-800 mb-4">
                     Introduction
                 </h2>
@@ -35,7 +35,7 @@ const About = () => {
                 </p>
             </section>
 
-            <section aria-labelledby="understanding-bias" className="mb-6">
+            <section aria-labelledby="understanding-bias" className="mb-6" role="button" tabIndex="0">
                 <h2 id="understanding-bias" className="text-2xl font-semibold text-gray-800 mb-4">
                     Comprendre le Biais de Confirmation
                 </h2>
@@ -52,7 +52,7 @@ const About = () => {
                 </p>
             </section>
 
-            <section aria-labelledby="impact-politics" className="mb-6">
+            <section aria-labelledby="impact-politics" className="mb-6" role="button" tabIndex="0">
                 <h2 id="impact-politics" className="text-2xl font-semibold text-gray-800 mb-4">
                     L'Impact sur la Politique
                 </h2>
@@ -69,7 +69,7 @@ const About = () => {
                 </p>
             </section>
 
-            <section aria-labelledby="personal-example" className="mb-6">
+            <section aria-labelledby="personal-example" className="mb-6" role="button" tabIndex="0">
                 <h2 id="personal-example" className="text-2xl font-semibold text-gray-800 mb-4">
                     Un Exemple Personnel
                 </h2>
@@ -86,7 +86,7 @@ const About = () => {
                 </p>
             </section>
 
-            <section aria-labelledby="overcoming-bias" className="mb-6">
+            <section aria-labelledby="overcoming-bias" className="mb-6" role="button" tabIndex="0">
                 <h2 id="overcoming-bias" className="text-2xl font-semibold text-gray-800 mb-4">
                     Comment le Reconnaître et le Surmonter
                 </h2>
@@ -110,7 +110,7 @@ const About = () => {
                 </ul>
             </section>
 
-            <footer aria-labelledby="essay-conclusion" className="pt-6 border-t border-gray-300">
+            <footer aria-labelledby="essay-conclusion" className="pt-6 border-t border-gray-300" role="button" tabIndex="0">
                 <h2 id="essay-conclusion" className="text-2xl font-semibold text-gray-800 mb-4">
                     Conclusion
                 </h2>
