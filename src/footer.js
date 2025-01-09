@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="bg-gray-800 text-white py-6 bottom-0 w-full">
       <div className="container mx-auto px-4 text-center">
         <div className="mb-4">
-          <p> FoolBiasProduction</p>
+          <p aria-label="FoolBiasProduction" > FoolBiasProduction</p>
         </div>
 
         <div className="mb-4">
@@ -13,7 +13,7 @@ const Footer = () => {
         </div>
 
         <div className="text-sm text-gray-400">
-          <p>© 2025 MonSite. Tous droits réservés.</p>
+          <p aria-label="© 2025 MonSite. Tous droits réservés." >© 2025 MonSite. Tous droits réservés.</p>
         </div>
       </div>
     </footer>
