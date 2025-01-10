@@ -32,7 +32,7 @@ const About = () => {
             aria-labelledby="essay-title"
             className="p-4 ml-8 mr-8">
             <header className="mb-6">
-                <h1 id="essay-title" className="text-3xl font-bold text-gray-900 mb-2" role="button" tabIndex="0">
+                <h1 id="essay-title" className="text-3xl font-bold text-gray-900 mb-2" tabIndex="0">
                     L'impact de l'apparence sur la confiance et les jugements sociaux
                 </h1>
                 <p className="text-sm text-gray-600">
@@ -44,7 +44,7 @@ const About = () => {
                 </p>
             </header>
 
-            <section aria-labelledby="introduction" className="mb-6" role="button" tabIndex="0">
+            <section aria-labelledby="introduction" className="mb-6" tabIndex="0">
                 <h2 id="introduction" className="text-2xl font-semibold text-gray-800 mb-4">
                     Introduction
                 </h2>
@@ -59,7 +59,7 @@ const About = () => {
                 </p>
             </section>
 
-            <section aria-labelledby="halo-bias" className="mb-6" role="button" tabIndex="0">
+            <section aria-labelledby="halo-bias" className="mb-6" tabIndex="0">
                 <h2 id="halo-bias" className="text-2xl font-semibold text-gray-800 mb-4">
                 Le biais de halo : un mécanisme psychologique qui affecte nos perceptions
                 </h2>
@@ -78,7 +78,7 @@ const About = () => {
                 </p>
             </section>
 
-            <section aria-labelledby="consequences" className="mb-6" role="button" tabIndex="0">
+            <section aria-labelledby="consequences" className="mb-6" tabIndex="0">
                 <h2 id="consequences" className="text-2xl font-semibold text-gray-800 mb-4">
                   Les conséquences de ce biais dans la vie quotidienne et professionnelle
                 </h2>
@@ -104,7 +104,7 @@ const About = () => {
                 </p>
             </section>
 
-            <section aria-labelledby="overcoming-bias" className="mb-6" role="button" tabIndex="0">
+            <section aria-labelledby="overcoming-bias" className="mb-6" tabIndex="0">
                 <h2 id="overcoming-bias" className="text-2xl font-semibold text-gray-800 mb-4">
                   Comment surmonter ce biais et éviter les jugements hâtifs ?
                 </h2>
@@ -125,7 +125,7 @@ const About = () => {
                 </p>
             </section>
 
-            <footer aria-labelledby="essay-conclusion" className="pt-6 border-t border-gray-300" role="button" tabIndex="0"   >
+            <footer aria-labelledby="essay-conclusion" className="pt-6 border-t border-gray-300" tabIndex="0"   >
                 <h2 id="essay-conclusion" className="text-2xl font-semibold text-gray-800 mb-4">
                     Conclusion
                 </h2>

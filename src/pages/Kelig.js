@@ -40,14 +40,14 @@ const Kelig = () => {
                 <h1
                     id="essay-title"
                     className="text-3xl font-bold text-gray-900 mb-2"
-                    role="button"
+                    
                     tabIndex="0"
                 >
                     Le Biais de Confirmation : Quand Nos Croyances Guident Nos Réalités
                 </h1>
             </header>
 
-            <section id="section1" aria-labelledby="introduction" className="mb-6" role="button" tabIndex="0">
+            <section id="section1" aria-labelledby="introduction" className="mb-6"  tabIndex="0">
                 <h2 id="introduction" className="text-2xl font-semibold text-gray-800 mb-4">
                     Introduction
                 </h2>
@@ -59,7 +59,7 @@ const Kelig = () => {
                 </p>
             </section>
 
-            <section id="section2" aria-labelledby="understanding-bias" className="mb-6" role="button" tabIndex="0">
+            <section id="section2" aria-labelledby="understanding-bias" className="mb-6"  tabIndex="0">
                 <h2 id="understanding-bias" className="text-2xl font-semibold text-gray-800 mb-4">
                     Comprendre le Biais de Confirmation
                 </h2>
@@ -76,7 +76,7 @@ const Kelig = () => {
                 </p>
             </section>
 
-            <section id="section3" aria-labelledby="impact-politics" className="mb-6" role="button" tabIndex="0">
+            <section id="section3" aria-labelledby="impact-politics" className="mb-6"  tabIndex="0">
                 <h2 id="impact-politics" className="text-2xl font-semibold text-gray-800 mb-4">
                     L'Impact sur la Politique
                 </h2>
@@ -93,7 +93,7 @@ const Kelig = () => {
                 </p>
             </section>
 
-            <section id="section4" aria-labelledby="personal-example" className="mb-6" role="button" tabIndex="0">
+            <section id="section4" aria-labelledby="personal-example" className="mb-6"  tabIndex="0">
                 <h2 id="personal-example" className="text-2xl font-semibold text-gray-800 mb-4">
                     Un Exemple Personnel
                 </h2>
@@ -110,7 +110,7 @@ const Kelig = () => {
                 </p>
             </section>
 
-            <section id="section5" aria-labelledby="overcoming-bias" className="mb-6" role="button" tabIndex="0">
+            <section id="section5" aria-labelledby="overcoming-bias" className="mb-6"  tabIndex="0">
                 <h2 id="overcoming-bias" className="text-2xl font-semibold text-gray-800 mb-4">
                     Comment le Reconnaître et le Surmonter
                 </h2>
@@ -134,7 +134,7 @@ const Kelig = () => {
                 </ul>
             </section>
 
-            <footer aria-labelledby="essay-conclusion" className="pt-6 border-t border-gray-300" role="button" tabIndex="0">
+            <footer aria-labelledby="essay-conclusion" className="pt-6 border-t border-gray-300"  tabIndex="0">
                 <h2 id="essay-conclusion" className="text-2xl font-semibold text-gray-800 mb-4">
                     Conclusion
                 </h2>
