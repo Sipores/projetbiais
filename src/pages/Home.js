@@ -1,4 +1,5 @@
 import React from "react";
+import Formulaire from "../formulaire"
 
 const Home = () => {
   return (
@@ -24,6 +25,10 @@ const Home = () => {
              ou comment ils peuvent être utliser ou présent dans notre vie.
         </p>
       </div>
+      <br/>
+      <Formulaire/>
+      <br/>
+
     </div>
   );
 };
