@@ -20,10 +20,10 @@ const App = () => {
               <Link to="/" aria-label="Accueil du site" className="text-gray-800 hover:text-blue-500">
                 Accueil
               </Link>
-              <Link to="/Kelig" aria-label="Essaie de Kélig" className="text-gray-800 hover:text-blue-500">
+              <Link to="/Kelig" aria-label="Essaie de Kélig, Le Biais de Confirmation : Quand Nos Croyances Guident Nos Réalités" className="text-gray-800 hover:text-blue-500">
                 Kelig
               </Link>
-              <Link to="/Maeva" aria-label="Essaie de Maeva" className="text-gray-800 hover:text-blue-500">
+              <Link to="/Maeva" aria-label="Essaie de Maeëva, L'impact de l'apparence sur la confiance et les jugements sociaux" className="text-gray-800 hover:text-blue-500">
                 Maeva
               </Link>
               <Link to="/Mathis" aria-label="Essaie de Mathis, Les biais cognitifs et les croyances en pseudo-sciences" className="text-gray-800 hover:text-blue-500">
