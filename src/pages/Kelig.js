@@ -40,6 +40,8 @@ const Kelig = () => {
                 <h1
                     id="essay-title"
                     className="text-3xl font-bold text-gray-900 mb-2"
+                    role="button"
+                    tabIndex="0"
                 >
                     Le Biais de Confirmation : Quand Nos Croyances Guident Nos Réalités
                 </h1>
