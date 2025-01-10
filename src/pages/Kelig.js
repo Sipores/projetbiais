@@ -1,6 +1,35 @@
-import React from "react";
+import React, {useEffect} from "react";
 
-const About = () => {
+
+const Kelig = () => {
+
+    const handleKeyDown = (event) => {
+        const sectionIds = [
+            "section1",
+            "section2",
+            "section3",
+            "section4",
+            "section5",
+            "section6",
+            "section7",
+            "section8",
+        ];
+
+        // Si l'utilisateur appuie sur "Alt" + un chiffre de 1 à 7, faites défiler vers la section correspondante
+        const sectionNumber = parseInt(event.key);
+        if (event.altKey && sectionNumber >= 1 && sectionNumber <= 8) {
+            const sectionId = sectionIds[sectionNumber - 1]; // Décrémentation de 1 pour correspondre à l'index du tableau
+            document.getElementById(sectionId).scrollIntoView({ behavior: "smooth" });
+        }
+    };
+
+    useEffect(() => {
+        window.addEventListener("keydown", handleKeyDown);
+
+        return () => {
+            window.removeEventListener("keydown", handleKeyDown);
+        };
+    }, []);
     return (
         <article
             role="article"
@@ -14,16 +43,9 @@ const About = () => {
                 >
                     Le Biais de Confirmation : Quand Nos Croyances Guident Nos Réalités
                 </h1>
-                <p className="text-sm text-gray-600">
-                    Par <strong className="font-semibold">VILLALARD Kelig</strong>. Dernière mise à jour :{" "}
-                    <time dateTime="2025-01-09" className="italic">
-                        9 janvier 2025
-                    </time>
-                    .
-                </p>
             </header>
 
-            <section aria-labelledby="introduction" className="mb-6" role="button" tabIndex="0">
+            <section id="section1" aria-labelledby="introduction" className="mb-6" role="button" tabIndex="0">
                 <h2 id="introduction" className="text-2xl font-semibold text-gray-800 mb-4">
                     Introduction
                 </h2>
@@ -35,7 +57,7 @@ const About = () => {
                 </p>
             </section>
 
-            <section aria-labelledby="understanding-bias" className="mb-6" role="button" tabIndex="0">
+            <section id="section2" aria-labelledby="understanding-bias" className="mb-6" role="button" tabIndex="0">
                 <h2 id="understanding-bias" className="text-2xl font-semibold text-gray-800 mb-4">
                     Comprendre le Biais de Confirmation
                 </h2>
@@ -52,7 +74,7 @@ const About = () => {
                 </p>
             </section>
 
-            <section aria-labelledby="impact-politics" className="mb-6" role="button" tabIndex="0">
+            <section id="section3" aria-labelledby="impact-politics" className="mb-6" role="button" tabIndex="0">
                 <h2 id="impact-politics" className="text-2xl font-semibold text-gray-800 mb-4">
                     L'Impact sur la Politique
                 </h2>
@@ -69,7 +91,7 @@ const About = () => {
                 </p>
             </section>
 
-            <section aria-labelledby="personal-example" className="mb-6" role="button" tabIndex="0">
+            <section id="section4" aria-labelledby="personal-example" className="mb-6" role="button" tabIndex="0">
                 <h2 id="personal-example" className="text-2xl font-semibold text-gray-800 mb-4">
                     Un Exemple Personnel
                 </h2>
@@ -86,7 +108,7 @@ const About = () => {
                 </p>
             </section>
 
-            <section aria-labelledby="overcoming-bias" className="mb-6" role="button" tabIndex="0">
+            <section id="section5" aria-labelledby="overcoming-bias" className="mb-6" role="button" tabIndex="0">
                 <h2 id="overcoming-bias" className="text-2xl font-semibold text-gray-800 mb-4">
                     Comment le Reconnaître et le Surmonter
                 </h2>
@@ -125,4 +147,4 @@ const About = () => {
     );
 };
 
-export default About;
+export default Kelig;
