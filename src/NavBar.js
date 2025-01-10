@@ -12,9 +12,6 @@ const App = () => {
       <nav className="bg-white shadow-md">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-16">
-            {/* Logo */}
-            <div className="text-xl font-bold text-gray-800" role="button" tabIndex="0" aria-label="Logo du site">MonLogo</div>
-
             {/* Navigation Links */}
             <div className="md:flex space-x-4">
               <Link to="/" aria-label="Accueil du site" className="text-gray-800 hover:text-blue-500">
