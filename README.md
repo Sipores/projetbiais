@@ -1,6 +1,6 @@
 # Lancer notre Projet !
 
-Une fois le dosser du porjet il faut lancer la commande : 
+Une fois le dossier du projet il faut lancer la commande : 
 
 `npm start`
 
